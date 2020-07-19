@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbajs - transiciones</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-barba="wrapper">
+    <!--BARRAS-->
+    <ul class="transition">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main data-barba="container" data-barba-namespace="home">
+            <div class="left">
+                <h1>Home</h1>
+                <a href="./services.html" class="cta">A services</a>
+            </div>
+            <img src="./img/cafe.jpg" alt="exterior">
+        </main>
+    </div>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js" integrity="sha512-3WGIRFCuTpZhqYujwLp5RtARPkOy3uRtc3RXB31bJ9/i6VH2C66Z0WBV6gHhdhbUIDKFx8yTkLfEjdQM5Wl+ZQ==" crossorigin="anonymous"></script>
+<!--     <script src="js/app.js"></script>
+ -->
+ <script src="js/app.js"></script>
+</body>
+</html>
